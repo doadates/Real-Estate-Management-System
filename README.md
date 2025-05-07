@@ -74,13 +74,14 @@ Edit database.py and update the connection parameters:
 
 connection = psycopg2.connect(
     dbname='<your_database>',
-    
     user='<your_username>',
-    
     password='<your_password>',
-    
     host='localhost'  # or your database host
+
+    # I used my own local database with my local username and password.
+    # You can simply connect to your own PostgreSQL instance with your own credentials.
 )
+
 
 ## 🔒 Admin Password
 
