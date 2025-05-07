@@ -4,10 +4,15 @@ This project is a command-line based Real Estate Management System built with **
 
 ## 📁 Project Structure
 ├── database.py # PostgreSQL connection setup
+
 ├── estate_agent.py # Agent account management (create, login, delete)
+
 ├── estate.py # CRUD operations for estates (apartment/house)
+
 ├── contract.py # Person and contract creation/listing
+
 ├── main.py # CLI interface and menu system
+
 ├── schema.sql # SQL file to initialize database tables
 
 ---
@@ -60,7 +65,6 @@ Simply connect to your own database instance with your own credentials (no exter
 
 #### 2. Python Dependencies
 pip install psycopg2
-
 
 Edit database.py and update the connection parameters:
 
