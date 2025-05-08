@@ -72,13 +72,16 @@ Edit database.py and update the connection parameters:
 
 Edit database.py and update the connection parameters:
 
-# connection = psycopg2.connect(
-  #  dbname='<your_database>',
-   # user='<your_username>',
-   # password='<your_password>',
-   # host='localhost'  # or your database host
+```
+connection = psycopg2.connect(
+    dbname='<your_database>',
+    user='<your_username>',
+    password='<your_password>',
+    host='localhost'  # or your database host
+)
+```
 
-# )
+
 
 
 ## 🔒 Admin Password
