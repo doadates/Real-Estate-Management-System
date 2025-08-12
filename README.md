@@ -1,6 +1,7 @@
 # Real-Estate-Management-System
 
 This project is a command-line based Real Estate Management System built with **Python** and **PostgreSQL**. It allows estate agents to manage properties (apartments and houses), handle client data, and generate contracts for rentals or purchases.
+<img width="562" height="677" alt="image" src="https://github.com/user-attachments/assets/f54a05ce-92c7-48d7-af85-5bbbf7c5f62d" />
 
 ## 📁 Project Structure
 ├── database.py # PostgreSQL connection setup
